@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dad Jokes</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="mainContainer">
+      <h1 id="element"></h1>
+      <div class="dadJoke">
+        <span id="joke">Dad Joke</span>
+      </div>
+      <button id="button" onclick="getAJoke()">TELL ME A JOKE</button>
+    </div>
+    <script src="./script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Dad Joke.", "Do fun with jokes..", "Dad Joke."],
+        typeSpeed: 60,
+      });
+    </script>
+  </body>
+</html>

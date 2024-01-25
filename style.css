@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(90deg,rgb(77, 77, 213),rgb(187, 189, 235),rgb(80, 80, 192));
+}
+.mainContainer{
+    height: 300px;
+    border: 2px solid  ;
+    width: 1000px;
+    box-shadow: 2px 2px 2px black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:rgba(255, 255,0, 0.2);
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.mainContainer>h1{
+    font-weight: 700;
+    font-size: 50px;
+    color: blue;
+    text-shadow: 2px 2px 2px black;
+}
+.mainContainer>span{
+    display: none;
+}
+.mainContainer>.dadJoke>#joke{
+    /* border: 2px solid; */
+    /* background-color:bisque; */
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(10, 3, 97);
+    text-shadow: 2px 2px 2px white;
+    /* text-shadow: 2px 2px 2px black; */
+}
+.mainContainer>button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: green;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    width: 250px;
+    cursor: pointer;
+    /* align-self: flex-start; */
+
+}
+.mainContainer>button:hover{
+    background-color: red;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    /* align-self: flex-start; */
+
+}
+.dadJoke{
+    height: 300px;
+    /* border: 2px solid; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
